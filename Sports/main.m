@@ -21,11 +21,15 @@ int main(int argc, const char * argv[]) {
                                   @"baseball" : @"⚾️",
                                   @"golf" : @"⛳️"
                                   };
-    for (NSString *key in sports) {
-      id value = sportsEmojis[key];
-      NSLog(@"%@ \n", value);
-    }
+//    for (NSString *key in sports) {
+//      id value = sportsEmojis[key];
+//      NSLog(@"%@ \n", value);
+//    }
     
-  }
+//    fast enumeration
+    for (id element in sports) {
+      NSLog(@"%@ ", sportsEmojis[element]);
+    }
   return 0;
+  }
 }
