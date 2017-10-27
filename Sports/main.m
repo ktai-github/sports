@@ -16,19 +16,15 @@ int main(int argc, const char * argv[]) {
     [sports addObject:@"golf"];
     [sports removeLastObject];
     [sports insertObject:@"golf" atIndex:0];
-    NSDictionary *sportsEmoji = @{
+    NSDictionary *sportsEmojis = @{
                                   @"hockey" : @"🏒",
                                   @"baseball" : @"⚾️",
                                   @"golf" : @"⛳️"
                                   };
-//    NSInteger i, count = [sports count];
     for (NSString *key in sports) {
-//      id element = [sports objectAtIndex:i];
-      id value = sportsEmoji[key];
-//      NSLog(@"%@ \n", element);
+      id value = sportsEmojis[key];
       NSLog(@"%@ \n", value);
     }
-    
     
   }
   return 0;
