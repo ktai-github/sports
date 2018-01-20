@@ -19,7 +19,8 @@ int main(int argc, const char * argv[]) {
     NSDictionary *sportsEmojis = @{
                                   @"hockey" : @"🏒",
                                   @"baseball" : @"⚾️",
-                                  @"golf" : @"⛳️"
+                                  @"golf" : @"⛳️",
+                                  @"motorsport" : @"🏎"
                                   };
 //    for (NSString *key in sports) {
 //      id value = sportsEmojis[key];
