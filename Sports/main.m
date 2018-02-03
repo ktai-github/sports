@@ -21,6 +21,8 @@ int main(int argc, const char * argv[]) {
                                   @"baseball" : @"⚾️",
                                   @"golf" : @"⛳️",
                                   @"motorsport" : @"🏎"
+
+                                  @"floor hockey" : @"🏒"
                                   };
 //    for (NSString *key in sports) {
 //      id value = sportsEmojis[key];
