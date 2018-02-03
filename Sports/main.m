@@ -20,6 +20,8 @@ int main(int argc, const char * argv[]) {
                                   @"hockey" : @"🏒",
                                   @"baseball" : @"⚾️",
                                   @"golf" : @"⛳️",
+                                  @"motorsport" : @"🏎"
+
                                   @"floor hockey" : @"🏒"
                                   };
 //    for (NSString *key in sports) {
